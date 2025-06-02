@@ -1,0 +1,22 @@
+CREATE EXPRESS SERVER
+
+
+1. Create the 'package.json' file using the appropriate command.  Then install the following
+   packages:
+
+   express 4.18.2
+   nodemon (install as a dev dependecy because only needed for development and testing)
+   mongoose
+  
+   Now, create an Express app that listens on Port 5001.  Configure 'package.json' to use the
+   ES6 imports, and enable the ability to use 'npm run dev' to start the server.
+
+
+
+2. Log 'Server started on PORT: 5001' to the console when starting the server.  Do this by way
+   of a 'GET' route '/api/notes'.  Configure your own message to send to the browser to verify
+   that you've gotten the server started.
+   
+
+
+Solution: https://shorturl.at/pZhcl (5:50 - 27:33)
