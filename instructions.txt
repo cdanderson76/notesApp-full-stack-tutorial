@@ -18,7 +18,7 @@ CREATE ROUTES
 
 4. Create '/backend/src/', and then store the 'controllers' and 'routes' folders within this
    directory.  Fix 'package.json' to reflect the change.  You'll have to stop the running
-   server.
+   server and restart it again
 
 
 
