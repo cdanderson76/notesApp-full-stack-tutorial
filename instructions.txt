@@ -1,0 +1,20 @@
+MONGODB
+
+
+1. Create the MongoDB database (if you haven't already [there is a file on the
+   thumbdrive]).  Create '/backend/.env', and store your connection string of 
+   the database there, along with the port number that you will be using for 
+   the project.
+
+
+2. Create a '/backend/config/db.js' file, and create the function
+   to connect to the MongoDB database.  Be sure that it's asynchronous and uses
+   a 'try/catch' block.  Ensure that the process exits with failure if there is 
+   an error.
+
+
+3. Log that the database has connected ONCE connected.
+   
+
+
+Solution: https://shorturl.at/pZhcl (43:52 - 59:20)
