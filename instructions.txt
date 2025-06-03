@@ -1,0 +1,25 @@
+CREATE ROUTES
+
+
+1. Add a 'start' script for deployment (when we want to run the app).  For this we will use
+   'node' to start the server.
+
+
+2. Create the rest of the routes to create, edit, and delete notes with the proper success 
+   messages (do this in 'server.js' (the entry point of application).  
+
+   Create '/backend/routes/notesRoutes.js'.  Create Express Router, and store all of the
+   endpoints created in 'server.js' in this folder.
+
+
+3. Create '/backend/controllers/notesController.js'.  Create functions within this file, and 
+   further condense the routes in 'notesRoutes.js' into this new file.
+
+
+4. Create '/backend/src/', and then store the 'controllers' and 'routes' folders within this
+   directory.  Fix 'package.json' to reflect the change.  You'll have to stop the running
+   server.
+
+
+
+Solution: https://shorturl.at/pZhcl (27:33 - 43:52)
