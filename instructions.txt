@@ -16,6 +16,8 @@ NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
    You are going to have to find the appropriate methods in order to complete the
    functions.
 
+   NOTE:  TURN *ALL* FUNCTIONS INTO 'TRY/CATCH' ASYNC FUNCTIONS IN THIS FILE!
+
    For 'getAllNotes':
 
    if successful: status 200
