@@ -1,0 +1,35 @@
+MODEL AND SCHEMA
+
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. Create '/backend/src/models/notes.js'. Create a schema called 'noteSchema'.
+   Ensure that it includes a 'title' and 'content'.  These will be required as
+   well.  Also, ensure that created and updated actions are kept track of.
+
+   Be sure to export this as well.
+
+
+2. In 'notesController.js', import the 'Note' model from 'notes.js' turn the   
+   'getAllNotes' function into a 'try/catch' with the appropriate error messaging.  
+   You are going to have to find the appropriate methods in order to complete the
+   functions.
+
+   For 'getAllNotes':
+
+   if successful: status 200
+   log 'Error in getAllNotes controller', error
+   if fails: status 500 (Internal server error)
+
+
+3. In 'server.js', sure that all request bodies are read and converted into usable
+   format (parsed)  NOTE: THIS IS MIDDLEWARE
+
+
+   If done correctly, when you go to '/api/notes' you will see an actual empty
+   array in the browser like you see in Anki.
+
+
+
+Solution: https://shorturl.at/pZhcl (59:20 - 1:09:00)
