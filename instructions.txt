@@ -1,0 +1,26 @@
+CREATE NOTE
+
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. Complete the 'createNote' function within 'notesController.js' so that notes
+   get created and successfully stored in the MongoDB database.  Ensure that:
+
+   if successful: return code 201, and 'Not created successfully' message
+   if fails: log 'Error in createNote controller'
+   if fails: create 'Internal server error message'
+    
+   
+2. Move the express middleware in 'server.js' before the 'get' route, and 
+   test this out creating a note in Postman.  If done successfully, MongoDB, should
+   store the note to the MongoDB database.
+
+
+3. Now, test the 'getAllNotes' route in Postman.  You should be able to see whatever
+   note(s) you created.
+
+   
+
+
+Solution: https://shorturl.at/pZhcl (1:09:00)
