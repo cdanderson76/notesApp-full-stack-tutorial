@@ -13,7 +13,7 @@ NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
    message 'Note not found' (404).
 
 
-2. On the completed functions, ensure all 
+2. On the completed functions, ensure all responses ('res') are returned
 
 
 3. Ensure that when updated, that you get the new note with the updated fields.
