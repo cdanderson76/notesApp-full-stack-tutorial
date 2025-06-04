@@ -1,0 +1,43 @@
+TOAST N TAILWIND
+
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. In 'main.jsx' import the 'Toaster' from react-hot-toast.  Insert it below the
+   'App' within this file.
+
+   Create a button outside of the 'Routes' tag, and have it create a success message
+   of 'congrats' just to confirm that it's working.
+
+
+2. Set up Tailwind CSS (use the 'Tailwind CSS AFTER Vite' file on this thumbdrive).
+   Now, update the 'index.css' file with the appropriate syntax.  If this is done
+   correctly, you will see the syntax change just a bit.
+
+3. Delete the button that you used to test 'react hot toast'.  Now we are going to 
+   install DaisyUI so we don't have to write out so many classes on our own.
+
+   https://v4.daisyui.com/ (not the latest version because it has bugs)
+   
+   npm install daisyui@4.12.24 -D
+
+   Properly import daisyUI into the 'tailwind.config.js' file
+
+
+4. Test out daisyUI by creating a button (same as before) by using the following classes:
+
+   btn btn-outline
+
+   Now, grab a set of buttons from daisyui
+
+   If done correctly, the browser will totally change.  Now, use the 'forest' theme from
+   daisyui.  Grab a set of buttons from daisyui, and they should look like the first pic
+   in Anki.
+
+   Now, change to the 'coffee' theme. The browser should now look like the second pic in
+   Anki. Switch back to 'forest' them after verification.
+
+   
+
+Solution: https://shorturl.at/pZhcl (1:51:15 - 2:02:00)
