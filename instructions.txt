@@ -1,0 +1,34 @@
+RATE LIMIT
+
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. Create a database in Upstash, and copy the Redis URL and TOKEN.  Paste these values
+   into the '.env' file.
+
+   Now, install the following Upstash packages while in the '/backend' directory:
+
+   npm install @upstash/ratelimit@2.0.5
+   npm install @upstash/redis@1.34.9
+
+
+2. Create '/config/upstash.js', and create a ratelimiter that allows 100 requests per 60
+   seconds.
+
+
+3. Create '/src/middleware/rateLimiter.js', and create an async function called
+   'rateLimiter' that will allow you to check for rate-limiting.
+
+   In 'server.js' ensure that you implement the 'rateLimiter' middleware right after the
+   Express middlware.  Once completed, test this out in Postman.  You can actually
+   change the rate limiter to 5 requests per 10 seconds, and see if it errors out
+   after 5 attempts (should look like it does in Anki).
+
+   NOTE: USE THE 'getAllNotes' REQUEST
+
+
+4. Modify 'server.js' to connect to the MongoDB database and THEN start listening (if it
+   doesn't connect to the database, then why should the app start?)
+
+Solution: https://shorturl.at/pZhcl (1:25:00 - 1:45:40)
