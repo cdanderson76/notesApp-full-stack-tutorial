@@ -1,0 +1,27 @@
+SPECIFIC NOTE
+
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. Create another route in 'notesRoutes.js', as we are going to create function-
+   ionality for grabbing a SPECIFIC note.  We'll call this route 'getNoteById'.
+   
+
+2. Create the controller in 'notesController.js'.
+
+   if successful: return code 200, and 'Note deleted successfully' message
+   if fails: log 'Error in getNoteById controller'
+   if fails: create 'Internal server error message' (error 500);
+   
+   Account for it the 'ID' for the note is not found/doesn't exist.  Use the
+   message 'Note not found' (404).
+
+
+3. Sort the 'getAllNotes' function in 'notesController.js' so that the new note
+   will show first and old notes will show last.  Also, because we are not using
+   the 'req' argument in this function, use the proper skip symbol.
+
+
+
+Solution: https://shorturl.at/pZhcl (1:20:20 - 1:25:00)
