@@ -1,0 +1,43 @@
+START FRONTEND
+
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. Change into the frontend folder, and create your react app with Vite (notes in
+   thumbdrive).  Be sure to initialize this under the current folder.
+   
+   Install the following packages:
+
+   react-router-dom
+   react-hot-toast
+
+
+2. Remove the following:  
+
+   App.css
+   The 'assets' folder
+   Everything in 'index.css'
+   Everything in 'App.jsx'
+
+
+3. Create boilerplate code for 'App.jsx', rendering 'App' to the browser.  In
+   'main.jsx', make it so that you can use routing within the whole application.
+
+   Create '/src/pages', and inside of this directory, create the following components:
+
+   CreatePage.jsx
+   HomePage.jsx
+   NoteDetailPage.jsx
+
+
+4. In 'App.jsx' create routes for each component, and verify that they are rendered to the
+   browser when navigating to each endpoint.  Endpoints are:
+
+   CreatePage.jsx: /create
+   HomePage.jsx: /
+   NoteDetailPage: /note/:id
+
+   
+
+Solution: https://shorturl.at/pZhcl (1:45:40 - 1:51:15)
