@@ -1,0 +1,20 @@
+DELETE NOTE
+
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. Complete the 'deleteNote' function by using the appropriate method.
+
+   if successful: return code 200, and 'Note deleted successfully' message
+   if fails: log 'Error in deleteNote controller'
+   if fails: create 'Internal server error message' (error 500);
+   
+   Account for it the 'ID' for the note is not found/doesn't exist.  Use the
+   message 'Note not found' (404).
+
+
+2. Test this out in Postman.
+
+
+Solution: https://shorturl.at/pZhcl (1:18:20 - 1:20:20)
