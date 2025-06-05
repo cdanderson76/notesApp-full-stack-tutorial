@@ -1,0 +1,37 @@
+HOME PAGE 1
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. Install the following packages in the 'frontend' directory:
+
+   axios
+   lucide-react
+
+   Create a '/src/components/Navbar.jsx' with the following boilerplate code:
+
+   <header className="bg-base-300 border-b border-base-content/10">
+      <div className='mx-auto max-w-6xl p-4'>
+        <div className="flex items-center justify-between">
+          <h1 className="text-3xl font-bold text-primary font-mono tracking-tight"></h1>
+          <div className="flex items-center gap-4">
+              <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+
+2. Import the 'Link' component from 'react-router-dom', and create a link that
+   goes to the 'CreatePage' page.  Import the 'PlusIcon' from lucide-react to
+   make it look like the illustration in Anki.  Use the following classes for
+   the two tags:
+
+   Link: className='btn btn-primary'
+   PlusIcon: className='h-5 w-5'
+
+   If everything is done correctly, you'll see what you see in Anki, and when
+   clicking on the 'New Note' button, it will take you to the 'CreatePage' page.
+   
+
+Solution: https://shorturl.at/pZhcl (2:02:00 - 2:07:47)
