@@ -12,6 +12,7 @@ NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
    'http://localhost:5173' rather than from ANY URL
 
 
+
 2. Build out the 'RateLimiterUI.jsx' UI.  Here's the boilerplate code:
 
    <div className="max-w-6xl mx-auto px-4 py-8">
@@ -32,6 +33,7 @@ NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
     You'll need to use the zap icon from lucide react to make this UI.  You can find it here:
     
     https://lucide.dev/icons/zap
+
 
 
 3. Modify the 'HomePage' application to where it briefly shows 'Loading notes' on the 
