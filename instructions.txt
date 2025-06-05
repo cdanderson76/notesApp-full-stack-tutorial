@@ -1,0 +1,23 @@
+CONSOLE ERROR
+
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. Now that you're getting the data, store this data in state, and ensure you set the
+   rate limitation state to 'false'.
+
+   Ensure you write a block that if the error status is equal to 429, set the rate
+   limitation to 'true', otherwise, use react hot toast to produce an error that says 
+   'Failed to load notes'.
+
+
+2. After the 'else' statement, write a 'finally' statement that will set the 'loading'
+   state to 'false'.  Open the inspection console, and try to see if the rate limit will
+   take effect after 5 tries in 15 seconds.  If you receive the error that you see in
+   Anki, you've completed this challenge.
+
+   NOTE: CHANGE BACK TO ORIGINAL TIMING WHEN FINISHED
+   
+
+Solution: https://shorturl.at/pZhcl (2:17:50 - 2:19:35)
