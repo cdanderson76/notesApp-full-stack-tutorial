@@ -1,13 +1,10 @@
-TOAST N TAILWIND
+DaisyUI N TAILWIND
 
 
 NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
 
 
-1. In 'main.jsx' import the 'Toaster' from react-hot-toast.  Insert it below the
-   'App' within this file.
-
-   Create a button outside of the 'Routes' tag, and have it create a success message
+1. Create a button outside of the 'Routes' tag, and have it create a success message
    of 'congrats' just to confirm that it's working.
 
 
@@ -15,8 +12,7 @@ NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
    Now, update the 'index.css' file with the appropriate syntax.  If this is done
    correctly, you will see the syntax change just a bit.
 
-3. Delete the button that you used to test 'react hot toast'.  Now we are going to 
-   install DaisyUI so we don't have to write out so many classes on our own.
+3. Now we are going to install DaisyUI so we don't have to write out so many classes on our own.
 
    https://v4.daisyui.com/ (not the latest version because it has bugs)
    
