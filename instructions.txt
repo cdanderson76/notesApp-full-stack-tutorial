@@ -8,6 +8,10 @@ NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
    axios
    lucide-react
 
+   For the 'HomePage' add the following class:
+
+   className="min-h-screen"
+
    Create a '/src/components/Navbar.jsx' with the following boilerplate code:
 
    <header className="bg-base-300 border-b border-base-content/10">
