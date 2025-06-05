@@ -25,6 +25,7 @@ NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
       </div>
     </header>
     
+   Have the 'Navbar' component imported into the 'HomePage' component.
 
 2. Import the 'Link' component from 'react-router-dom', and create a link that
    goes to the 'CreatePage' page.  Import the 'PlusIcon' from lucide-react to
