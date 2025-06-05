@@ -1,0 +1,32 @@
+FETCH NOTES
+
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. Create the component '/components/RateLimitedUI.jsx'.  Set state in 'HomePage'
+   that will help to show when the rate limit is hit.
+
+   Also create state for if a page is loading, and state for the notes that will
+   be displayed on the page
+
+   Add a conditional syntax that says if the rate limit state is true, display 
+   the 'RateLimitedUI.jsx' component
+
+
+2. Use the 'useEffect' hook so that the notes can be grabbed upon page load.  Be
+   sure to use axios along with the appropriate method to fetch correctly, and log
+   the data to the console using a 'try/catch'.  If done correctly, you should get 
+   an error in the console stating that you are blocked by the 'CORS' policy.
+
+   NOTE: ALL OF THE PREVIOUS IS DONE IN 'HomePage.jsx'
+
+
+3. Install 'cors' in the '/backend' directory, and use it as middleware in 'server.js'.  
+   When done correctly, you'll see that the CORS error will disappear.  Try refreshing 
+   the page.  If data is in the MongoDB database, you should see it appear in the 
+   console.
+   
+   
+
+Solution: https://shorturl.at/pZhcl (2:07:47 - 2:17:50)
