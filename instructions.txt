@@ -29,7 +29,8 @@ NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
 5. Create '/lib/axios.js', and create an 'axios' instance to where you will store the
    baseURL for the 'CreatePage.jsx' and the 'HomePage.jsx'.
 
-   Remove the 'axios' imports where they are not needed.
+   Remove the 'axios' imports where they are not needed.  When finished, you should be able to
+   see the notes actually get created in the home page.
 
 
 
