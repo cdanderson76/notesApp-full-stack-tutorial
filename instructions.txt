@@ -1,0 +1,52 @@
+SHOW NOTES
+
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. Create a component called 'NoteCard.jsx'.  Use the following boilerplate
+   code to complete this component:
+
+   <Link to={`/note/${note._id}`}
+          className="card bg-base-100 hover:shadow-lg transition-all duration-200 border-t-4 border-solid border-[#00FF9D]">
+          <div className="card-body">
+            <h3 className="card-title text-base line-clamp-3"></h3>
+            <p className="text-base-content/70 line-clamp-3"></p>
+            <div className="card-actions justify-between items-center mt-4">
+              <span className="text-sm text-base-content/60">
+                
+              </span>
+              <div className="flex items-center gap-1">
+                <PenSquareIcon className="size-4" />
+                <button className="btn btn-ghost btn-xs text-error">
+                  <Trash2Icon className="size-4" />
+                </button>
+              </div>
+            </div>
+          </div>
+    </Link>
+
+   You're going to have to use a 'Link' tag that navigates you to the 'NoteDetailPage'
+   whenever a note card is clicked.  Also, use the 'PenSquareIcon' and 'Trash2Icon'
+   from lucide react to help develop the illustration.
+
+   Import the 'NoteCard.jsx' component into the 'HomePage' component (note, you'll
+   have to use the data from the database and iterate over it.
+
+
+
+2. Whenever there are notes, we have to show them on the home screen page.  Complete 
+   the syntax in order to make this happen.  Use the following boilerplate code
+   in order to make this happen:
+
+   CONTAINER FOR THE NOTES (show if there are notes and if there isn't a rate limit:
+
+   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div>
+                
+              </div>
+   </div>
+
+
+
+Solution: https://shorturl.at/pZhcl (2:22:00 - 2:28:10)
