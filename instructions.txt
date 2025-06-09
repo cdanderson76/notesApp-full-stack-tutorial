@@ -1,0 +1,41 @@
+DELETE FUNCTIONALITY
+
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. Create an async function that will delete the card that you click on.
+
+   NOTE: THE TRASH ICON IS IN A LINK TAG...YOU'LL HAVE TO FIND A WAY TO GET RID OF THE
+         NAVIGATION BEHAVIOR!
+
+
+2. Use the 'setNotes' setter function in 'HomePage.jsx' to have the UI updated as soon
+   as an item is deleted.
+
+
+3. Create a UI that lets the user know that there aren't any notes to show.  This will
+   be called 'NotesNotFound', and you can create this in the 'components' directory.
+   use the following boilerplate code to do so:
+
+   Link utility classes: className="btn btn-primary"
+   NotebookIcon utility classes: className="size-10 text-primary"
+
+   <div className="flex flex-col items-center justify-center py-16 space-y-6 max-w-md mx-auto text-center">
+      <div className="bg-primary/10 rounded-full p-8">
+    
+      </div>
+      <h3 className="text-2xl font-bold"></h3>
+      <p className="text-base-content/70">
+        Ready to organize your thoughts? Create your first note to get started on your journey.
+      </p>
+      
+    </div>
+
+
+4. Construct the UI to look like it does in Anki.  Ensure that there is a link/button
+   that will take you to the 'CreatePage', and that there a NotebookIcon that shows
+   as well.
+
+
+Solution: https://shorturl.at/pZhcl (2:49:00 - 2:56:00)
