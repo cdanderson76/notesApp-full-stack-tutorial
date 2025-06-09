@@ -1,0 +1,36 @@
+FORM FUNCTIONALITY
+
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. In 'CreatePage.jsx', set up the form functionality.
+
+2. Ensure that the 'Create Note' button is disabled if the form is in a 'loading' state
+   Also, make sure that the button says 'Creating...' when in a loading state, and
+   'Create Note' when it ISN'T in a loading state.
+
+   Test out this functionality
+
+
+3. Log the form contents to the console.  Once you know that you are getting the data,
+   write a conditional to allow submission IF there is data.  Ensure that you account
+   for any empty values like 'spaces'
+
+   Also, ensure all that all form inputs are required.
+
+
+4. Turn the 'handleSubmit' function into an 'async' function.  Create a 'try/catch' 
+   to send messages of successful creation, or an error.  Use axios to assist in this.
+
+   Whenever a note is successfully created, have the page navigate back to 'HomePage.jsx'
+
+
+5. Create '/lib/axios.js', and create an 'axios' instance to where you will store the
+   baseURL for the 'CreatePage.jsx' and the 'HomePage.jsx'.
+
+   Remove the 'axios' imports where they are not needed.
+
+
+
+Solution: https://shorturl.at/pZhcl (2:37:36 - 2:49:00)
