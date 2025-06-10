@@ -1,0 +1,27 @@
+NoteDetailPage 3
+
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. Finish the 'handleDelete' function.  Use the built-in confirmation window to verify
+   deletion.  Use the built in window system to send a message that the note was deleted.
+   Ensure that this functionality takes place and test it out, and make sure that
+   when a note is deleted that the screen navigates back to the home screen.
+
+
+2. Finish the 'handleSave' function. If there isn't a note title (account for any empty
+   characters as well), OR if there isn't note content (account for any dead space here
+   as well), send an error alert to the console saying 'Please add a 'title' or 'content'.
+
+   When updating the note in question, use a 'try/catch/finally' statement.
+
+
+3. Modify the event listeners, and make sure that after the successful update message is
+   sent, to automatically navigate back to the home page.
+
+
+THE APP IS NOW COMPLETED!!
+
+
+Solution: https://shorturl.at/pZhcl (3:34:30 - ~ )
