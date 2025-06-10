@@ -1,0 +1,49 @@
+NoteDetailPage
+
+
+NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
+
+
+1. In 'NoteDetailPage.jsx', set up state for each note, and initialize it to 'null'.
+   Also, have a 'loading' state, and a 'saving' state.
+
+   Create a variable and store the 'useNavigate' hook inside of it, and grab the ID
+   for any specific note.  Log the ID to the console (the ID should match the ID for
+   the specific note that you see in the browser.
+
+
+2. Grab the specific note by way of the 'useEffect' hook, and log the data of the data
+   to the console to ensure that we are getting it.  Now, create the 'loading' animation
+   for this page.  Use the following boilerplate code to do this:
+
+   NOTE: IF THE PAGE IS LOADING, USE WHAT'S BELOW:
+
+   <div className="min-h-screen bg-base-200 flex items-center justify-center">
+      <LoaderIcon className='animate-spin size-10' />
+   </div>
+
+
+3. Use the following bolierplate code to return after loading:
+
+   <div className='min-h-screen bg-base-200'>
+      <div className="container mx-auto px-4 py-8">
+        <div className="max-w-2xl mx-auto">
+          <div className="flex items-center justify-between mb-6">
+            <Link to={'/'} className="btn btn-ghost mb-6">
+              <ArrowLeft className='size-5'/>
+              Back to Notes
+            </Link>
+            <button className="btn btn-error btn-outline">
+              <Trash2Icon className="h-5 w-5"/>
+              Delete Note
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    
+   If done correctly, the loading icon will spin, and you will see what you see in Anki.	
+
+
+Solution: https://shorturl.at/pZhcl (2:57:00 - 3:03:00)
