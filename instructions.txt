@@ -6,7 +6,9 @@ CREATE ROUTES
 
 
 2. Create the rest of the routes to create, edit, and delete notes with the proper success 
-   messages (do this in 'server.js' (the entry point of application).  
+   messages (do this in 'server.js' (the entry point of application).
+
+   NOTE: ONLY 'RESPONSES' ARE NEEDED!  NOT THE ACTUAL FUNCTIONALITY!
 
    Create '/backend/routes/notesRoutes.js'.  Create Express Router, and store all of the
    endpoints created in 'server.js' in this folder.
