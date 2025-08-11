@@ -18,9 +18,9 @@ CREATE ROUTES
    further condense the routes in 'notesRoutes.js' into this new file.
 
 
-4. Create '/backend/src/', and then store the 'controllers' and 'routes' folders within this
-   directory.  Fix 'package.json' to reflect the change.  You'll have to stop the running
-   server and restart it again
+4. Create '/backend/src/', and then store the 'controllers', 'routes' folders, along
+   with 'server.js' within this directory.  Fix 'package.json' to reflect the change.  You'll 
+   have to stop the running server and restart it again
 
 
 
