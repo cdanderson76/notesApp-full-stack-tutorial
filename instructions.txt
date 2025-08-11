@@ -22,6 +22,7 @@ CREATE ROUTES
    with 'server.js' within this directory.  Fix 'package.json' to reflect the change.  You'll 
    have to stop the running server and restart it again
 
-
+NOTE:  THERE'S NO FUNCTIONALITY TO TEST HERE!  JUST ENSURE YOU COMPLETE THE TASKS AND THAT THEY
+       MATCH CLOSE TO WHAT THEY ARE IN ANKI!
 
 Solution: https://shorturl.at/pZhcl (27:33 - 43:52)
