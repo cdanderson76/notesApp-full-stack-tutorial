@@ -12,7 +12,7 @@ NOTE: .env FILE INFORMATION HAS TO BE PROVIDED FOR THIS CHALLENGE!
    if fails: create 'Internal server error message'
     
    
-2. Move the express middleware in 'server.js' before the 'get' route, and 
+2. Move the express middleware in 'server.js' to its APPROPRIATE place, and 
    test this out creating a note in Postman.  If done successfully, MongoDB, should
    store the note to the MongoDB database.
 
